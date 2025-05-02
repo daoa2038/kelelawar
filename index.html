@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>web kelelawar indramayu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Kelelawar Indramayu</h1>
+    <p>Banyak wacana dan Banyak yapping itulah kami😹</p>
+  </header>
+
+  <section class="profiles">
+    <h2>All Member cuy😎</h2>
+    <div class="card-container">
+      <div class="card" onclick="showDetail(0)">atmin😂</div>
+      <div class="card" onclick="showDetail(1)">jawir😨</div>
+      <div class="card" onclick="showDetail(2)">mbob😘</div>
+      <div class="card" onclick="showDetail(3)">peyang😪</div>
+      <div class="card" onclick="showDetail(4)">cokocip🍪</div>
+      <div class="card" onclick="showDetail(5)">mmoyy🥱</div>
+      <div class="card" onclick="showDetail(6)">zayyyiinal😪</div>
+    </div>
+  </section>
+
+  <div id="profileDetail" class="modal hidden">
+    <div class="modal-content">
+      <span class="close" onclick="closeDetail()">&times;</span>
+      <img id="profile-image" src="" alt="Foto" class="profile-image" />
+      <h3 id="profileName"></h3>
+      <p id="profileDesc"></p>
+    </div>
+  </div>
+
+  <section class="socials" style="text-align: center;">
+    <h2>Mampir dulu dong!😁</h2>
+    <div class="social-icons" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; align-items: center;">
+      <a href="https://www.tiktok.com/@battmman_07?_t=ZS-8vxmZbR4eZz&_r=1" target="_blank" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: inherit;">
+        <img src="icons/tiktok_logo_2-removebg-preview.png" alt="TikTok" class="icon" style="width: 50px; height: 50px;" />
+        <span>@battmman_07</span>
+      </a>
+      <a href="https://www.instagram.com/kelelawar_indramayu?igsh=MTZ4eDU5azI5bmt3dA==" target="_blank" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: inherit;">
+        <img src="icons/instagram_logo-removebg-preview.png" alt="Instagram" class="icon" style="width: 50px; height: 50px;" />
+        <span>@kelelawar_indramayu</span>
+      </a>
+      <a href="https://maps.app.goo.gl/eh4SqgtNN3gacH1C8" target="_blank" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: inherit;">
+        <img src="icons/google_maps_logo-removebg-preview.png" alt="Maps" class="icon" style="width: 75px; height: 40px;" />
+        <span>Tempat Nongkrong</span>
+      </a>
+    </div>
+  </section>
+  
+
+  <section class="gallery">
+    <h2>Galeri foto group kelelawar</h2>
+    <div class="gallery-container">
+      <img src="Images/kelelawar foto group.jpeg" alt="Foto 1">
+      <img src="Images/kelelawar foto group 2.jpeg" alt="Foto 2">
+      <img src="images/kelelawar foto group 3.jpeg" alt="Foto 3">
+      <img src="Images/kelelawar foto group 4.jpeg" alt="Foto 4">
+      <img src="Images/kelelawar foto group 5.JPG" alt="Foto 5">
+      <img src="Images/kelelawar foto group 6.jpeg" alt="Foto 6">
+      <img src="Images/kelelawar foto group 7.jpeg" alt="Foto 7">
+    </div>
+  </section>  
+  
+  <script src="script.js"></script>
+</body>
+</html>

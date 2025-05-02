@@ -1,0 +1,143 @@
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #fca5a5, #fcd34d, #93c5fd);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #fca5a5;
+    backdrop-filter: blur(5px);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  header p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #fdfdfd;
+  }
+  
+  .profiles {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .card {
+    background: #ffffffaa;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    position: relative;
+  }
+  
+  .modal-content h3 {
+    margin-top: 0;
+  }
+  
+  .close {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .close:hover {
+    color: #ff0000;
+  }
+
+  .gallery {
+  padding: 4rem;
+  text-align: center;
+}
+
+.gallery h2 {
+  margin-bottom: 1.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.2rem;
+  justify-items: center;
+  background: #ffffff26;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.gallery-container img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.05);
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+  
