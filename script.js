@@ -14,7 +14,7 @@ const profiles = [
     {
       name: "mbob😘",
       desc: "mbob ini nama aslinya epan, orangnya sih kalo di ledek ga baperan🤭.",
-      Image: "img/mbobee.jpeg"
+      Image: "Img/mbobee.jpeg"
     },
     {
       name: "peyang😪",
